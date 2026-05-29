@@ -1,0 +1,76 @@
+# Coffee Shop Sales Dashboard
+
+## Project Overview
+
+This project is an end-to-end Excel data analytics dashboard built using the **Coffee Shop Sales** dataset from Maven Analytics. The dataset contains transaction records for Maven Roasters, a fictitious coffee shop operating across three NYC locations, including transaction date, time, store location, and product-level details.
+
+Dataset source: Maven Analytics Data Playground  
+License: Public Domain
+
+## Objective
+
+The objective of this project is to analyze coffee shop sales performance and identify business insights related to:
+
+Total sales
+Total footfall
+Average bill per person
+Average order per person
+Sales by product category
+Store location performance
+Hourly ordering patterns
+Weekday order trends
+Product and size distribution
+
+## Tools Used
+
+Microsoft Excel
+Pivot Tables
+Pivot Charts
+Slicers
+Power Pivot
+Dashboard Design & Formatting
+
+## Dashboard Features
+
+Interactive slicers for Month and Day
+ KPI cards for:
+   Total Sales
+   Total Footfall
+   Average Bill per Person
+   Average Order per Person
+ Hourly quantity ordered trend
+ Category-wise sales distribution
+ Order size distribution
+ Footfall by store location
+ Top 5 products by sales
+ Orders by weekdays
+
+## Key Metrics
+
+| Metric | Value |
+|---|---:|
+| Total Sales | $698,812.33 |
+| Total Footfall | 149,116 |
+| Average Bill per Person | $4.69 |
+| Average Order per Person | 1.44 |
+
+## Key Insights
+
+1. **Total sales reached $698,812.33**, with total customer footfall of **149,116**.
+2. **Average bill per person is $4.69**, showing a relatively low-ticket, high-volume sales pattern.
+3. **Average order per person is 1.44**, meaning many customers purchase more than one item per visit.
+4. **Coffee is the leading category**, contributing around **39%** of total category distribution.
+5. **Tea is the second-largest category**, contributing around **28%**.
+6. **Regular, Large, and Not Defined sizes have almost similar order shares**, each contributing around 30%, while Small contributes only 9%.
+7. **Hell's Kitchen generated the highest sales**, followed closely by Astoria and Lower Manhattan.
+8. **Barista Espresso is the top-selling product by revenue**, generating about **$91,406.20**.
+9. **Morning hours, especially around 8 AM to 10 AM, show the highest order activity**, suggesting strong breakfast and morning coffee demand.
+10. **Friday has the highest number of orders**, while Saturday has the lowest among the weekdays shown.
+
+## Business Recommendations
+
+- Focus promotional campaigns during morning peak hours to maximize revenue.
+- Promote high-performing products like Barista Espresso and Brewed Chai Tea.
+- Investigate why Saturday orders are lower and consider weekend-specific offers.
+- Improve product sizing data, as “Not Defined” accounts for a large share of size distribution.
+- Use location-level performance to create store-specific sales strategies.
